@@ -99,3 +99,15 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+#pyc
+*.pyc
+
+#migration
+authorizer/migrations/
+
+#sqlite
+db.sqlite3
+
+#setting
+settings.py
